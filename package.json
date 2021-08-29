@@ -1,0 +1,26 @@
+{
+  "name": "autotrader-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benAkehurst/autotrader-scraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benAkehurst/autotrader-scraper/issues"
+  },
+  "homepage": "https://github.com/benAkehurst/autotrader-scraper#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.10",
+    "node-fetch": "^2.6.1",
+    "puppeteer": "^10.2.0"
+  }
+}
