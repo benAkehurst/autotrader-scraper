@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  main.explainer.container
+    h1 #{pageTitle}
+  div.results.container
+    button.run-scraper.btn-primary#submitButton='Run Scraper'
+    div#loader
+      div.lds-ellipsis
+        div
+        div
+        div
+        div
+    div#resultsWrapper
+      
+  
